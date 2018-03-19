@@ -24,3 +24,4 @@ Install package with::
 
     $ pip install .
 
+# tests
