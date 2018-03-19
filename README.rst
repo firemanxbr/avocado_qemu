@@ -14,8 +14,9 @@ Clone::
     $ cd avocado_qemu
 
 Package dependencies:
- **avocado-framework**: the base framework avocado_qemu inherits from.
- **aexpect**: lib for interaction with the VM console.
+
+ * **avocado-framework**: the base framework avocado_qemu inherits from.
+ * **aexpect**: lib for interaction with the VM console.
 
 Package dependencies are satisfied by `setup.py`.
 
