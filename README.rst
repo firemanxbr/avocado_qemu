@@ -1,8 +1,7 @@
 System dependencies:
-
- - qemu: to spin-up the VM.
- - qemu-img: to create the disk snapshot.
- - genisoimage: to generate the cloudinit cdrom.
+ **qemu**: to spin-up the VM.
+ **qemu-img**: to create the disk snapshot.
+ **genisoimage**: to generate the cloudinit cdrom.
 
 Install system dependencies with::
 
@@ -14,9 +13,8 @@ Clone::
     $ cd avocado_qemu
 
 Package dependencies:
-
- - avocado-framework: the base framework avocado_qemu inherits from.
- - aexpect: lib for interaction with the VM console.
+ **avocado-framework**: the base framework avocado_qemu inherits from.
+ **aexpect**: lib for interaction with the VM console.
 
 Package dependencies are satisfied by `setup.py`.
 
