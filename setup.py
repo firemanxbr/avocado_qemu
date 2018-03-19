@@ -9,5 +9,5 @@ setup(name='avocado-qemu',
       url='http://avocado-framework.github.io/',
       packages=['avocado_qemu'],
       include_package_data=True,
-      install_requires=['avocado-framework']
+      install_requires=['avocado-framework>=59.0', 'aexpect']
       )
