@@ -1,4 +1,5 @@
 System dependencies:
+
  * **qemu**: to spin-up the VM.
  * **qemu-img**: to create the disk snapshot.
  * **genisoimage**: to generate the cloudinit cdrom.
